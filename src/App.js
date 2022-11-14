@@ -19,14 +19,14 @@ function App() {
      <Header></Header>
 
      <Switch>
-          <Route path="/education" component={Education}></Route>
-          <Route path="/contact" component={Contacts}></Route>
-          <Route path="/getting-started" component={GettingStarted}></Route>
-          <Route path="/resume-templates" component={GettingStarted}></Route>
-          <Route path="/about-us"     component={AboutUs}></Route>
-          <Route path="/finalize" component={Finalize}></Route>
-          <Route path="/login" component={Login}></Route>
-          <Route path="/register" component={Register}></Route>             
+          <Route path="/" component={Education}></Route>
+          <Route path="/" component={Contacts}></Route>
+          <Route path="/" component={GettingStarted}></Route>
+          <Route path="/" component={GettingStarted}></Route>
+          <Route path="/"     component={AboutUs}></Route>
+          <Route path="/" component={Finalize}></Route>
+          <Route path="/" component={Login}></Route>
+          <Route path="/" component={Register}></Route>             
           <Route path="/" component={LandingPage}></Route>
       </Switch>
       <Footer></Footer>   
