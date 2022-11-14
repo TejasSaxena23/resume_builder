@@ -13,11 +13,8 @@ import AboutUs from './components/presentation/aboutUs';
 import Contacts from './components/presentation/contact';
 import Education from './components/presentation/education';
 import Finalize from  './components/presentation/finalizePage';
-import BrowserRouter from 'react-router-dom/BrowserRouter'
 function App() {
   return (
-    ReactDOM.render((
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
     <div>
      <Header></Header>
 
@@ -34,8 +31,7 @@ function App() {
       </Switch>
       <Footer></Footer>   
     </div>
-   </BrowserRouter>
-   ),)  
+   
   );
 }
 
